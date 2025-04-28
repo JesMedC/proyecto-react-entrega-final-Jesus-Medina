@@ -20,7 +20,7 @@ function Navbar() {
     <header>
       <nav className="nav-bar">
         <Link to="/">
-          <img src="../../assets/logo.png" alt="Logo" className="nav-bar-logo" />
+          <img src="../../assets/Logo.png" alt="Logo" className="nav-bar-logo" />
         </Link>
 
         <ul className="nav-bar-items">
