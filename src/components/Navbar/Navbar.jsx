@@ -1,7 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../CartContext/CartContext'; // Importamos el contexto
-import CartWidget from '../CartWidget/CartWidget';
 import './Navbar.css';
 
 function Navbar() {
