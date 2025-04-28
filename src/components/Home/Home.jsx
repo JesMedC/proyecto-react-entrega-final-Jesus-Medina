@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'; // Importamos Link para la navegación
 import './Home.css'; // Importa los nuevos estilos
 
 // Asegúrate de colocar la imagen en la carpeta correcta
-import logoImage from '../../assets/logo.png'; // Cambia la ruta a tu archivo de imagen
+import logoImage from '../../assets/Logo.png'; // Cambia la ruta a tu archivo de imagen
 
 const Home = () => {
   return (
