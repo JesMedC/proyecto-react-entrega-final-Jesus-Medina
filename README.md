@@ -1,12 +1,45 @@
-# React + Vite
+# Proyecto de Tienda Online con React y Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una tienda online construida con **React** y **Firebase**. Permite a los usuarios explorar productos, añadirlos al carrito, y proceder con el pago mediante una interfaz sencilla y funcional. La aplicación también está integrada con **Firestore** de Firebase para almacenar datos sobre productos y registrar las órdenes de compra.
 
-Currently, two official plugins are available:
+**Tecnologías Utilizadas**:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Librería para construir la interfaz de usuario.
+- **Firebase**: Utilizado para la base de datos (Firestore), autenticación y almacenamiento.
+- **React Router**: Para la navegación entre las diferentes páginas.
+- **React Context**: Para la gestión del estado global, como el carrito de compras.
+- **CSS**: Estilización de la aplicación.
+- **Vite**: Herramienta para compilar el proyecto.
 
-## Expanding the ESLint configuration
+## Características
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚀 Funcionalidades Principales
+
+- **Visualización de productos**: Los usuarios pueden ver una lista de productos que se obtienen desde Firebase Firestore, con detalles como nombre, precio, descripción, imagen y stock disponible.
+- **Filtrar productos**: Los usuarios pueden filtrar productos por categorías.
+- **Agregar al carrito**: Los usuarios pueden agregar productos al carrito, elegir la cantidad y ver un resumen de su compra.
+- **Proceso de checkout**: Los usuarios pueden completar su compra proporcionando su nombre y dirección de envío.
+- **Base de datos Firebase**: La información de los productos se guarda en **Firestore**, mientras que las compras se almacenan en una colección de "ordenes".
+- **Notificaciones de éxito**: Después de completar la compra, los usuarios recibirán una notificación de éxito usando `react-toastify`.
+
+### 💡 Características en Desarrollo
+
+- **Autenticación de usuario**: Se planea implementar la autenticación de usuarios mediante Firebase Authentication para una experiencia de usuario más personalizada.
+- **Pago**: Actualmente en desarrollo, se integrará una pasarela de pagos como **Stripe** o **PayPal** para permitir a los usuarios realizar pagos en línea de manera segura.
+
+## Pre-requisitos
+
+Antes de ejecutar este proyecto, asegúrate de tener instalados los siguientes programas:
+
+- **Node.js**: Asegúrate de tener instalada la última versión de [Node.js](https://nodejs.org/).
+- **Firebase**: Debes tener una cuenta de Firebase y haber creado un proyecto para usar **Firestore**.
+
+## Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/JesMedC/proyecto-react-entrega-final-Jesus-Medina.git
+
+## Autor 
+@JesusMedina
